@@ -1,0 +1,122 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "cSpell.userWords": [
+        "AMQP",
+        "pypiserver",
+        "Popen",
+        "Unprocessable",
+        "vhost",
+        "affordance",
+        "ansible",
+        "boto",
+        "chdir",
+        "deserialization",
+        "deserialize",
+        "deserialized",
+        "devs",
+        "enthought",
+        "getcwd",
+        "getenv",
+        "noqa",
+        "orgs",
+        "parametrize",
+        "postgresql",
+        "presentational",
+        "pylint",
+        "pymongo",
+        "pytest",
+        "qstring",
+        "reconstructor",
+        "repo",
+        "rfind",
+        "rtype",
+        "secretfiles",
+        "serializable",
+        "snmp",
+        "strftime",
+        "stringify",
+        "truthy",
+        "unmonitored",
+        "unmount",
+        "werkzeug"
+    ],
+
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": true,
+    "editor.minimap.showSlider": "always",
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [72, 79],
+
+    "explorer.autoReveal": false,
+
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.idea": true,
+        "**/.tox": true
+    },
+    "files.associations": {
+        "*.bson": "json"
+    },
+    "files.trimTrailingWhitespace": true,
+
+    "python.linting.flake8Args": [
+        "--ignore",
+        "E121,E123,E126,E226,E24,E402,E704,W503,W504"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.pydocstyleArgs": [
+        "--ignore",
+        "D203,D210,D213"
+    ],
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.pyTestArgs": [
+        "-x"
+    ],
+    "python.venvPath": "~/.pyvenv",
+
+    "search.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.idea": true,
+        "**/.tox": true,
+        "**/.venv": true,
+        "**/venv": true,
+        "**/.eggs": true,
+        "build/": true
+    },
+
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.scrollback": 50000,
+
+    "workbench.editor.tabSizing": "shrink",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+}
+
