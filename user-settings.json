@@ -1,5 +1,10 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "[markdown]": {
+        "editor.wordWrap": "off",
+        "editor.quickSuggestions": false
+    },
+
     "cSpell.userWords": [
         "AMQP",
         "pypiserver",
@@ -50,6 +55,9 @@
 
     "explorer.autoReveal": false,
 
+    "files.associations": {
+        "*.bson": "json"
+    },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
         "**/.git": true,
@@ -63,10 +71,20 @@
         "**/.idea": true,
         "**/.tox": true
     },
-    "files.associations": {
-        "*.bson": "json"
-    },
     "files.trimTrailingWhitespace": true,
+
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.historyExplorer.enabled": true,
 
     "python.linting.flake8Args": [
         "--ignore",
@@ -106,17 +124,9 @@
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.scrollback": 50000,
 
+    "typescript.updateImportsOnFileMove.enabled": "always",
+
     "workbench.editor.tabSizing": "shrink",
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true
-    },
-    "gitlens.historyExplorer.enabled": true,
+    "workbench.settings.editor": "ui",
 }
 
