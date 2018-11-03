@@ -127,6 +127,6 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
 
     "workbench.editor.tabSizing": "shrink",
-    "workbench.settings.editor": "ui",
+    "workbench.settings.editor": "json",
 }
 
