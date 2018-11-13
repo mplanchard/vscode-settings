@@ -128,5 +128,8 @@
 
     "workbench.editor.tabSizing": "shrink",
     "workbench.settings.editor": "json",
+
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
 }
 
