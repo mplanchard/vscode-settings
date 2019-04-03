@@ -33,7 +33,7 @@
         "command": "-workbench.action.focusBelowGroup"
     },
     {
-        "key": "ctrl+/",
+        "key": "cmd+\\",
         "command": "workbench.action.terminal.split",
         "when": "terminalFocus"
     },
@@ -43,7 +43,7 @@
         "when": "terminalFocus"
     },
     {
-        "key": "cmd+;",
+        "key": "ctrl+`",
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
@@ -57,5 +57,30 @@
     {
         "key": "ctrl+-",
         "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "-workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+;",
+        "command": "vim.showQuickpickCmdLine",
+        "when": "editorTextFocus && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.closeQuickOpen",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "shift+escape",
+        "command": "-workbench.action.closeQuickOpen",
+        "when": "inQuickOpen"
     }
 ]

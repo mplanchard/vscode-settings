@@ -7,21 +7,24 @@
 
     "cSpell.userWords": [
         "AMQP",
-        "pypiserver",
         "Popen",
         "Unprocessable",
-        "vhost",
+        "acyclic",
         "affordance",
         "ansible",
+        "attribs",
+        "backend",
         "boto",
         "chdir",
         "deserialization",
         "deserialize",
         "deserialized",
         "devs",
+        "docstring",
         "enthought",
         "getcwd",
         "getenv",
+        "idempotently",
         "noqa",
         "orgs",
         "parametrize",
@@ -29,6 +32,7 @@
         "presentational",
         "pylint",
         "pymongo",
+        "pypiserver",
         "pytest",
         "qstring",
         "reconstructor",
@@ -43,15 +47,17 @@
         "truthy",
         "unmonitored",
         "unmount",
+        "vhost",
         "werkzeug"
     ],
 
+    "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": true,
     "editor.minimap.showSlider": "always",
     "editor.renderControlCharacters": false,
     "editor.renderWhitespace": "none",
-    "editor.rulers": [72, 79],
+    "editor.rulers": [72, 79, 119],
 
     "explorer.autoReveal": false,
 
@@ -60,7 +66,7 @@
     },
     "files.autoSave": "onFocusChange",
     "files.exclude": {
-        "**/.git": true,
+        "**/.git": false,
         "**/.svn": true,
         "**/.hg": true,
         "**/CVS": true,
@@ -84,17 +90,16 @@
         "suppressShowKeyBindingsNotice": true
     },
     "gitlens.codeLens.enabled": false,
-    "gitlens.historyExplorer.enabled": true,
 
     "python.linting.flake8Args": [
         "--ignore",
         "E121,E123,E126,E226,E24,E402,E704,W503,W504"
     ],
     "python.linting.flake8Enabled": true,
-    "python.linting.pydocstyleArgs": [
-        "--ignore",
-        "D203,D210,D213"
-    ],
+    // "python.linting.pydocstyleArgs": [
+    //     "--ignore",
+    //     "D203,D210,D213"
+    // ],
     "python.linting.pydocstyleEnabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.mypyEnabled": true,
@@ -117,6 +122,7 @@
         "**/.tox": true,
         "**/.venv": true,
         "**/venv": true,
+        "**/venv*": true,
         "**/.eggs": true,
         "build/": true
     },
@@ -127,9 +133,13 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
 
     "workbench.editor.tabSizing": "shrink",
+    "workbench.list.keyboardNavigation": "simple",
+    "workbench.settings.openDefaultSettings": true,
     "workbench.settings.editor": "json",
 
+	"vim.highlightedyank.enable": true,
     "vim.hlsearch": true,
     "vim.incsearch": true,
+    "window.zoomLevel": 1,
 }
 
