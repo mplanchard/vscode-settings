@@ -22,9 +22,11 @@
         "devs",
         "docstring",
         "enthought",
+        "functools",
         "getcwd",
         "getenv",
         "idempotently",
+        "itertools",
         "noqa",
         "orgs",
         "parametrize",
@@ -51,6 +53,7 @@
         "werkzeug"
     ],
 
+    "editor.formatOnSave": true,
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": true,
@@ -89,22 +92,17 @@
         "suppressResultsExplorerNotice": false,
         "suppressShowKeyBindingsNotice": true
     },
-    "gitlens.codeLens.enabled": false,
 
     "python.linting.flake8Args": [
         "--ignore",
         "E121,E123,E126,E226,E24,E402,E704,W503,W504"
     ],
     "python.linting.flake8Enabled": true,
-    // "python.linting.pydocstyleArgs": [
-    //     "--ignore",
-    //     "D203,D210,D213"
-    // ],
     "python.linting.pydocstyleEnabled": true,
     "python.linting.pylintEnabled": true,
     "python.linting.mypyEnabled": true,
-    "python.unitTest.pyTestEnabled": true,
-    "python.unitTest.pyTestArgs": [
+    "python.testing.pyTestEnabled": false,
+    "python.testing.pyTestArgs": [
         "-x"
     ],
     "python.venvPath": "~/.pyvenv",
@@ -129,6 +127,12 @@
 
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.scrollback": 50000,
+    "terminal.integrated.shellArgs.osx": [
+        "-l",
+        "-c",
+        "tmux",
+    ],
+    "terminal.integrated.fontFamily": "'Fira Mono for Powerline'",
 
     "typescript.updateImportsOnFileMove.enabled": "always",
 
@@ -137,9 +141,60 @@
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.editor": "json",
 
-	"vim.highlightedyank.enable": true,
+    "vim.highlightedyank.enable": true,
     "vim.hlsearch": true,
     "vim.incsearch": true,
     "window.zoomLevel": 1,
+    "gitlens.codeLens.enabled": false,
+    "liveshare.featureSet": "insiders",
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#b52e31"
+        },
+        {
+            "name": "Auth0 Orange",
+            "value": "#eb5424"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "C# Purple",
+            "value": "#68217A"
+        },
+        {
+            "name": "Gatsby Purple",
+            "value": "#639"
+        },
+        {
+            "name": "Java Blue-Gray",
+            "value": "#557c9b"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#00b3e6"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ]
 }
-

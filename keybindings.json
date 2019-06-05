@@ -69,11 +69,6 @@
         "when": "terminalFocus"
     },
     {
-        "key": "shift+;",
-        "command": "vim.showQuickpickCmdLine",
-        "when": "editorTextFocus && vim.mode != 'Insert'"
-    },
-    {
         "key": "ctrl+[",
         "command": "workbench.action.closeQuickOpen",
         "when": "inQuickOpen"
